@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resin Art Store</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f9f9f9;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 30px;
+            background: #111;
+            color: white;
+        }
+
+        nav a {
+            margin-left: 15px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+        }
+
+        .hero h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            background: #25D366;
+            color: white;
+            padding: 12px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .products {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin: 10px 0;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 50px;
+            background: #eee;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #111;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Resin Art</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Custom Resin Art Made Just for You</h2>
+    <p>Beautiful handmade gifts for every occasion</p>
+    <a href="https://wa.me/91XXXXXXXXXX" class="btn">Order on WhatsApp</a>
+</section>
+
+<section id="products" class="products">
+    <h2>Our Designs</h2>
+
+    <div class="grid">
+
+        <!-- Repeat for 10 products -->
+        <div class="card">
+            <img src="images/img1.jpg">
+            <h3>Resin Keychain</h3>
+            <p>₹199</p>
+            <a href="https://wa.me/91XXXXXXXXXX" class="btn">Order</a>
+        </div>
+
+        <div class="card">
+            <img src="images/img2.jpg">
+            <h3>Name Keychain</h3>
+            <p>₹249</p>
+            <a href="https://wa.me/91XXXXXXXXXX" class="btn">Order</a>
+        </div>
+
+        <div class="card">
+            <img src="images/img3.jpg">
+            <h3>Photo Frame</h3>
+            <p>₹499</p>
+            <a href="https://wa.me/91XXXXXXXXXX" class="btn">Order</a>
+        </div>
+
+        <div class="card">
+            <img src="images/img4.jpg">
+            <h3>Couple Frame</h3>
+            <p>₹699</p>
+            <a href="https://wa.me/91XXXXXXXXXX" class="btn">Order</a>
+        </div>
+
+        <div class="card">
+            <img src="images/img5.jpg">
+            <h3>Resin Clock</h3>
+            <p>₹999</p>
+            <a href="https://wa.me/91XXXXXXXXXX" class="btn">Order</a>
+        </div>
+
+        <div class="card">
+            <img src="images/img6.jpg">
+            <h3>Wall Art</h3>
+            <p>₹1299</p>
+            <a href="https://wa.me/91XXXXXXXXXX" class="btn">Order</a>
+        </div>
+
+        <div class="card">
+            <img src="images/img7.jpg">
+            <h3>Name Plate</h3>
+            <p>₹799</p>
+            <a href="https://wa.me/91XXXXXXXXXX" class="btn">Order</a>
+        </div>
+
+        <div class="card">
+            <img src="images/img8.jpg">
+            <h3>Resin Tray</h3>
+            <p>₹899</p>
+            <a href="https://wa.me/91XXXXXXXXXX" class="btn">Order</a>
+        </div>
+
+        <div class="card">
+            <img src="images/img9.jpg">
+            <h3>Jewelry Set</h3>
+            <p>₹599</p>
+            <a href="https://wa.me/91XXXXXXXXXX" class="btn">Order</a>
+        </div>
+
+        <div class="card">
+            <img src="images/img10.jpg">
+            <h3>Gift Combo</h3>
+            <p>₹1499</p>
+            <a href="https://wa.me/91XXXXXXXXXX" class="btn">Order</a>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>For custom orders, click below</p>
+    <a href="https://wa.me/91XXXXXXXXXX" class="btn">Chat on WhatsApp</a>
+</section>
+
+<footer>
+    <p>© 2026 Resin Art Store</p>
+</footer>
+
+</body>
+</html>
